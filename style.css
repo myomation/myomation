@@ -1,0 +1,48 @@
+
+
+:root {
+    --base-background-color: #919191;
+    --base-text-color: #e6e5ff;
+    --base-width: 650px;
+
+  --header-color: #748186;
+}
+
+*, 
+*::before,
+*::after {
+  margin: 0.5;
+  padding: 0.5;
+  box-sizing: border-box;
+  border-radius: 0.1rem;
+}
+
+html {
+    font-size: 25px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+body {
+    font-family: "Comic Sans MS", Comic Sans, cursive;
+    color: var(--base-text-color);
+    background: url('https://web.archive.org/web/20090903073812/http://geocities.com/maykel_cute/star.gif');
+        var(--base-background-color);
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+}
+
+div.unselectable {
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+mark { 
+  background-color: #8c8c8c;
+  color: yellow;
+}

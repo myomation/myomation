@@ -1,0 +1,42 @@
+
+div.content {
+    max-width: var(--base-width);
+    width: 90%;
+
+    position: absolute;
+    top: 1.5rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+div.content > div.header {
+    width: 100%;
+
+    grid-area: header; 
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+div.content > div.header > div.subtitle {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    margin: 0.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  border-top: solid 1px #ffffff;
+}
